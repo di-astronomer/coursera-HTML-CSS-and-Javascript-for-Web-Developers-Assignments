@@ -1,0 +1,153 @@
+.wrapper {
+  width: 1000px;
+  height: 735px;
+  margin: 0 auto;
+  background-color: #a3c1b4;
+  color: #25312f;
+  font-family: "Open Sans", "Fira Sans", "Lucida Sans", sans-serif;
+  font-size: 16px;
+  box-sizing: 
+}
+
+#header-nav{
+  background-color: #25312f;
+  color: #a3c1b4;
+  font-size: 18;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+#brand-img{
+  padding: 5px;
+}
+
+.navbar-header{
+  width: 100%;
+}
+
+.navbar-brand{
+  padding-top: 20px; 
+  padding-left: 10px;
+}
+
+.navbar-brand p{
+  font-size: 12px;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+.navbar-brand h1{
+  font-size: 30px;
+  color: #a3c1b4;
+}
+
+#navbar {
+  margin: 0;
+  padding: 30px 10px 10px 0;
+  list-style-type: none;
+}
+#navbar li { 
+  display: inline;
+  padding: 5px;
+  margin: 0; 
+}
+
+#navbar a{
+  color: #a3c1b4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  box-sizing: padding-box;
+  background-color: #a3c1b4;
+  color: #25312f;
+}
+
+.main-content{
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+#photo{
+  width: 270px;
+  margin: 20px 30px 20px 70px;
+  float: left;
+}
+.content{
+   display: inline;
+   margin: 20px 70px 20px 30px;
+   width: 450px;
+   float: right;
+}
+.content span{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.content p{
+  padding-top: 10px;
+  text-align: justify;
+  line-height: 1em;
+}
+
+.sub-content{
+  clear: both;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 0.9em;
+}
+
+div.sub-content > div{
+  margin-bottom: 5px;
+}
+
+.sub-content p{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.sub-content a{
+  display: inline-block;
+  text-decoration: none;
+  color: #25312f;
+}
+
+.sub-content a:hover{
+  color: #7a8b65;
+}
+
+.networks-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.footer{
+  width: 1000px;
+  height: 40px;
+  background-color: #424f35;
+  color: #7a8b65;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  bottom: 0;
+  position: fixed;
+
+}
+
+.title-achivments{
+  text-align: center;
+  font-weight: bold; 
+  font-size: 1.3em;
+}
+
+.achivments{
+  padding: 0 100px 0 100px;
+  text-align: justify;
+}
