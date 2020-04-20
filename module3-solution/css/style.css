@@ -1,0 +1,76 @@
+body{
+	background-color: Azure;
+	font-family: "Open Sans", "Fira Sans", "Lucida Sans", sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+h1{
+	text-shadow: DarkSlateGray -3px -3px;
+}
+
+h2{
+	color: DarkSeaGreen;
+	text-align: center;
+	text-shadow: DarkSlateGray -2px -2px;
+	font-size: 3em;
+}
+
+#header-nav{
+	background-color: DarkSeaGreen; 
+	border: 0;
+	border-radius: 0;
+}
+
+.container{
+	margin-left: 5%;
+	margin-right: 5%;
+	max-width: 100%;
+}
+
+#main-content{
+	margin-top: 20px;
+}
+
+#chicken{
+	background: LightSalmon;
+	margin: 25px;
+	padding: 0px 20px 10px 20px;
+	text-align: justify;
+}
+
+#meat{
+	background: LightPink;
+	margin: 25px;
+	padding: 0px 20px 10px 20px;
+	text-align: justify;
+}
+
+#sushi{
+	background: LightGreen;
+	margin: 25px;
+	padding: 0px 20px 10px 20px;
+	text-align: justify;
+}
+
+
+#chicken p:nth-child(1){
+	padding-top: 10px;
+	margin: 0;
+	font-size: 2em;
+	text-shadow: DarkSlateGray -1px -1px;
+}
+
+#meat p:nth-child(1){
+	padding-top: 10px;
+	margin: 0;
+	font-size: 2em;
+	text-shadow: DarkSlateGray -1px -1px;
+}
+
+#sushi p:nth-child(1){
+	padding-top: 10px;
+	margin: 0;
+	font-size: 2em;
+	text-shadow: DarkSlateGray -1px -1px;
+}
