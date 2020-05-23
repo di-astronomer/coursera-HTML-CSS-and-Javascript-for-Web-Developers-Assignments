@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web_lab2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <p class = "title">Телефоний довідник</p>
+        </header>
+        <article>
+            <label for="input_lastName"><span class = "text">Прізвище користувача: </span></label><input  id = "input_lastName" type="text"><br><br>
+            <label for="input_numbers"><span class = "text">Номери користувача: </span></label><br><br><textarea id = "input_numbers" cols="50" rows="5">Введіть номери користувача, використовуючи Enter як роздільник</textarea><br><br>
+            <button class = "main_button" id = "add_person">Добавити користувача</button>
+            <button class = "main_button" id = "sort_person">Відсортувати користувачів користувача</button><br><br>
+
+            <table id = "main_table">
+                <tr>
+                    <th>Прізвище користувача</th>
+                    <th>Номери користувача</th>
+                </tr>
+            </table>
+        </article>
+        <footer>
+            <p class = "title">made by Diana Skliar КV-74</p>
+        </footer>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
