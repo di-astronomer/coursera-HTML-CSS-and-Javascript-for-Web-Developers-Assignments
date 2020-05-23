@@ -1,0 +1,62 @@
+body {
+    background-color: azure;
+    color: white;
+}
+
+.title {
+    font-size: 64px;
+    font-family: "Open Sans", "Fira Sans", "Lucida Sans", sans-serif;
+}
+
+.text {
+    font-size: 24px;
+    font-family: "Open Sans", "Fira Sans", "Lucida Sans", sans-serif;
+    color: white;
+}
+
+.main {
+    min-height: 800px;
+    min-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #a3c1b4;
+    text-align: center;
+}
+
+header {
+    background-color: #25312f;
+    text-align: center;
+}
+
+article{
+    min-height: 600px;
+}
+
+footer {
+    background-color: #25312f;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    min-height: 20px;
+}
+
+textarea {
+    width: 500px;
+}
+
+.main_button {
+    min-height: 50px;
+    min-width: 200px;
+    text-align: center;
+}
+
+table, tr, th, td {
+    border: 2px solid #25312f;
+    color: white;
+}
+
+table {
+    min-width: 100%;
+}
